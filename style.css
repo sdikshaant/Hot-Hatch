@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(13,13,13,100);
+}
+.main1{
+    width: 98vw;
+    height: 98vh;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.584);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 5vw;
+    font-size: 20px;
+}
+.nav a:hover{
+    color:white;
+}
+.nav{
+    margin-top: 3vh;
+    margin-left: 60vw;
+}
+.logo img{
+    position: absolute;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 9vh;
+    margin-top: -25px;
+}
+.head{
+    position: absolute;
+    color: white;
+    font-family:cursive;
+    font-size: 35px;
+    /* margin-top: 1.5vh; */
+    margin-left: 26vh;
+    letter-spacing: 7px;
+}
+.imgs{
+    
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    margin-left: 310px;
+}
+.images{
+    height: 500px;
+}
+#image1{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.882), rgba(0, 0, 0, 0)), url('heir.webp');
+    background-size: cover;
+    transition: width 2s ,  opacity .5s ease;
+}
+#image2{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.882), rgba(0, 0, 0, 0)), url('nevera01.jpeg');
+    background-size: cover;
+    transition: width 2s ,  opacity .5s ease;
+}
+#image3{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.882), rgba(0, 0, 0, 0)), url('ssc-tuatara.webp');
+    background-size: cover;
+    transition: width 2s ,  opacity .5s ease;
+}
+.text{
+    position: relative;
+    color: white;
+    top: 63vh;
+    left: 45vh;
+    width: 350px;
+    height: 40px;
+    overflow: hidden;
+    z-index: 3;
+}
+h1{
+    position: relative;
+    bottom: -10px;
+    font-size: 40px;
+}
+.animate{
+    position: absolute;
+    top: 100px;
+    left: 40vw;
+    transform: rotate(-5deg) scale(0.6);
+}
+.pars{
+    margin-top: 24vh;
+    position: relative;
+    color:white;
+    margin-left: 5vw;
+    width:47vw;
+    height: 40vh;
+    font-size: 19px;
+    overflow: hidden;
+}
+p{
+    position: absolute;
+    bottom: -500vh;
+    font-family:cursive;
+    transition: all .5s;
+    
+}
+.main2{
+    width: 98vw;
+    height: 98vh;
+}
